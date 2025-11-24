@@ -1,9 +1,9 @@
 import Image from './common/Image';
-import service1 from '../assets/images/slider-bg.jpg';
-import service2 from '../assets/images/slider-bg.jpg';
-import service3 from '../assets/images/slider-bg.jpg';
-import service4 from '../assets/images/slider-bg.jpg';
-import service5 from '../assets/images/slider-bg.jpg';
+import service1 from '../assets/images/fedatario.jpg';
+import service2 from '../assets/images/perito.jpg';
+import service3 from '../assets/images/agente.jpg';
+import service4 from '../assets/images/agente.jpg';
+import service5 from '../assets/images/arbitro.jpg';
 
 interface Service {
     id: number;

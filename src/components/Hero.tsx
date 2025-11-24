@@ -1,21 +1,7 @@
-import Image from './common/Image';
-import heroImage from '../assets/images/slider-bg.jpg';
-
 const Hero = () => {
     return (
         <section id="inicio" className="relative h-screen w-full">
-            <div className="absolute inset-0 w-full h-full">
-                <Image
-                    src={heroImage}
-                    alt="Correduría Pública Número 39"
-                    layout="fill"
-                    objectFit="cover"
-                    priority={true}
-                />
-                <div className="absolute inset-0 bg-white bg-opacity-40"></div>
-            </div>
-
-            <div className="relative z-10 flex flex-col lg:flex-row h-full w-full">
+            <div className="relative bg-white z-10 flex flex-col lg:flex-row h-full w-full">
                 {/* Contenedor - En móvil: arriba, En desktop: izquierdo 1/3 */}
                 <div className="w-full lg:w-1/3 h-1/2 lg:h-full bg-[#41475f] flex items-center justify-center lg:items-start lg:justify-start lg:pt-24">
                     <div className="bg-[#87888a] rounded-lg border-2 border-[#f3efec] p-6 md:p-8 mx-4 lg:mx-6 w-full max-w-sm lg:ml-8">

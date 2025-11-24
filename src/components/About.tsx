@@ -1,6 +1,6 @@
 import Image from './common/Image';
-import aboutImage from '../assets/images/slider-bg.jpg';
-import backabout from '../assets/images/slider-bg.jpg';
+import aboutImage from '../assets/images/aboutimage.png';
+import backabout from '../assets/images/pantallaprincipal.jpg';
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
                     alt="Fondo Correduría Pública"
                     layout="fill"
                     objectFit="cover"
-                    className="opacity-10"
+                    className="opacity-30"
                 />
             </div>
 
