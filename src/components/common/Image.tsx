@@ -90,11 +90,10 @@ export default function Image({
                 loading={priority ? "eager" : "lazy"}
                 onLoad={handleLoad}
                 alt={alt}
-                className={
-                    layout === "fill" || layout === "responsive"
-                        ? "absolute top-0 left-0 w-full h-full"
-                        : ""
-                }
+                className={`
+                    ${layout === "fill" || layout === "responsive" ? "absolute top-0 left-0 w-full h-full" : ""}
+                    ${className || ""}
+                    `}
                 style={{
                     ...baseStyle,
                     ...layoutStyles,

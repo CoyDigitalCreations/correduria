@@ -1,15 +1,15 @@
 import Image from './common/Image';
 import aboutImage from '../assets/images/aboutimage.png';
-import backabout from '../assets/images/pantallaprincipal.jpg';
 
 const About = () => {
     return (
         <section id="acerca" className="py-20 bg-white w-full relative">
-            {/* Imagen de fondo semitransparente */}
-            <div className="absolute inset-0 w-full h-full">
+
+            {/* Fondo SOLO en móvil */}
+            <div className="absolute inset-0 w-full h-full lg:hidden">
                 <Image
-                    src={backabout}
-                    alt="Fondo Correduría Pública"
+                    src={aboutImage}
+                    alt="Fondo móvil Correduría Pública"
                     layout="fill"
                     objectFit="cover"
                     className="opacity-30"
@@ -18,8 +18,11 @@ const About = () => {
 
             <div className="relative z-10 w-full px-4">
                 <div className="w-full max-w-6xl mx-auto">
+
                     <div className="flex flex-col lg:flex-row items-center gap-12">
-                        <div className="lg:w-1/2">
+
+                        {/* Imagen SOLO en escritorio */}
+                        <div className="lg:w-1/2 hidden lg:block">
                             <div className="rounded-lg overflow-hidden shadow-2xl">
                                 <Image
                                     src={aboutImage}
@@ -30,6 +33,8 @@ const About = () => {
                                 />
                             </div>
                         </div>
+
+                        {/* Texto */}
                         <div className="lg:w-1/2">
                             <div className="space-y-6">
                                 <div className="mb-8">
@@ -38,7 +43,7 @@ const About = () => {
                                     </h2>
                                 </div>
 
-                                <div className="space-y-4 text-gray-600 leading-relaxed">
+                                <div className="space-y-4 text-gray-700 leading-relaxed">
                                     <p>
                                         La Secretaría de Economía es la encargada de que se aplique la Ley Federal de Correduría Pública;
                                         a través de la Dirección General de Normatividad Mercantil habilita a los Corredores Públicos,
@@ -61,7 +66,9 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </section>

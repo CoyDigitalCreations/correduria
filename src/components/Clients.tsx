@@ -1,9 +1,10 @@
 import Image from './common/Image';
 import walmartLogo from '../assets/images/walmart-logo_brandlogos.net_9vfxa.png';
 import attLogo from '../assets/images/AT&T_logo_2016svg.png';
-import cliente3Logo from '../assets/images/slider-bg.jpg';
-import cliente4Logo from '../assets/images/slider-bg.jpg';
-import cliente5Logo from '../assets/images/slider-bg.jpg';
+import ocesaLogo from '../assets/images/ocesa-logo-png-transparent.png';
+import autditorioLogo from '../assets/images/Auditorio-Nacional-Logo-Rojo.png';
+import begrand5Logo from '../assets/images/begrand_33a8b3c106_Z1PX8SI.webp';
+import monexLogo from '../assets/images/Monex_Logo.png';
 
 interface Cliente {
     id: number;
@@ -31,24 +32,31 @@ const PrincipalesClientes = () => {
         },
         {
             id: 3,
-            nombre: "Empresa Constructora XYZ",
-            descripcion: "Especialistas en desarrollo de infraestructura. Proporcionamos servicios de perito valuador para proyectos inmobiliarios.",
-            logo: cliente3Logo,
-            industria: "Construcción"
+            nombre: "OCESA",
+            descripcion: "Empresa líder en entretenimiento en vivo y producción de eventos. Asesoramos en contratos mercantiles y certificaciones para operaciones comerciales.",
+            logo: ocesaLogo,
+            industria: "Entretenimiento"
         },
         {
             id: 4,
-            nombre: "Grupo Financiero ABC",
-            descripcion: "Institución financiera de prestigio. Ofrecemos asesoría legal en operaciones mercantiles y solución de controversias.",
-            logo: cliente4Logo,
-            industria: "Finanzas"
+            nombre: "Auditorio Nacional",
+            descripcion: "Recinto cultural emblemático de México. Proveemos servicios de certificación y formalización de actos jurídicos relacionados con eventos y operaciones comerciales.",
+            logo: autditorioLogo,
+            industria: "Cultura y Espectáculos"
         },
         {
             id: 5,
-            nombre: "Corporación Industrial DEF",
-            descripcion: "Líder en manufactura y exportación. Desarrollamos procesos de arbitraje para resolver disputas comerciales internacionales.",
-            logo: cliente5Logo,
-            industria: "Manufactura"
+            nombre: "Be Grand",
+            descripcion: "Desarrolladora inmobiliaria de alto nivel. Participamos en procesos de valuación, asesoría legal y formalización de operaciones corporativas.",
+            logo: begrand5Logo,
+            industria: "Inmobiliario"
+        },
+        {
+            id: 6,
+            nombre: "Monex Bank",
+            descripcion: "Institución financiera especializada en banca corporativa y servicios cambiarios. Brindamos asesoría mercantil y certificaciones en transacciones comerciales.",
+            logo: monexLogo,
+            industria: "Finanzas"
         }
     ];
 
