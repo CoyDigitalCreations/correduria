@@ -42,7 +42,7 @@ const WazeIcon = () => (
 );
 
 const Locations = () => {
-    const address = "Gob. José Ma. Tornel No. 52, Col. San Miguel Chapultepec, 11850 Ciudad de México";
+    const address = "Gobernador José María Tornel 52, San Miguel Chapultepec I Secc, Miguel Hidalgo, 11850 Ciudad de México, CDMX";
     const encodedAddress = encodeURIComponent(address);
 
     // URLs para navegación
@@ -126,7 +126,7 @@ const Locations = () => {
                                         </div>
                                         <div>
                                             <h4 className="font-semibold text-[#41475f] mb-2">Dirección</h4>
-                                            <p className="text-[#87888a] leading-relaxed text-sm">
+                                            <p className="text-[#87888a] leading-relaxed text-sm text-justify">
                                                 {address}
                                             </p>
                                         </div>
