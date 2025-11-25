@@ -62,12 +62,12 @@ const Footer = () => {
                             <div className="space-y-4">
                                 <Link
                                     to="/aviso"
-                                    className="bg-[#87888a] text-[#f3efec] font-bold px-6 py-3 rounded-lg border border-[#87888a] hover:bg-[#f3efec] hover:text-[#87888a] transition duration-300 font-semibold w-full text-center block"
+                                    className="bg-[#87888a] text-[#f3efec] px-6 py-3 rounded-lg border border-[#87888a] hover:bg-[#f3efec] hover:text-[#87888a] transition duration-300 font-semibold w-full text-center block"
                                 >
                                     Aviso de Privacidad
                                 </Link>
                                 <div className="bg-[#87888a] bg-opacity-20 rounded-lg p-4">
-                                    <p className="text-sm text-[#f3efec] font-bold opacity-90 text-justify">
+                                    <p className="text-sm text-[#f3efec] opacity-90 text-justify">
                                         Correduría Pública No. 39 CDMX es una institución comprometida con la
                                         transparencia y protección de datos personales.
                                     </p>

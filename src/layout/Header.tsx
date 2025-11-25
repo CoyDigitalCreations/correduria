@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import cdmxlogo from '../assets/images/cdmxlogo.png';
+import cdmxlogo from '../assets/images/cdmxlogo.jpg';
 import Image from '../components/common/Image';
 
 const Header = () => {
