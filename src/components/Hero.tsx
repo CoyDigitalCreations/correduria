@@ -31,8 +31,8 @@ const Hero = () => {
 
                         {/* "Pública 39" */}
                         <div className="mx-2">
-                            <h3 className="text-xl md:text-2xl lg:text-4xl font-light text-[#f3efec] uppercase text-center">
-                                Pública 39
+                            <h3 className="text-xl md:text-2xl lg:text-3xl font-light text-[#f3efec] uppercase text-center">
+                                Pública Número 39
                             </h3>
                         </div>
                     </div>
