@@ -221,7 +221,7 @@ const Contact = () => {
                                         <EmailIcon />
                                     </div>
                                     <div>
-                                        <h4 className="text-lg font-bold text-[#41475f]">Ris</h4>
+                                        <h4 className="text-lg font-bold text-[#41475f]">Ricardo Iñiguez Segura</h4>
                                         <p className="text-[#87888a] text-sm">Contacto principal</p>
                                     </div>
                                 </div>
@@ -237,7 +237,7 @@ const Contact = () => {
                                         <EmailIcon />
                                     </div>
                                     <div>
-                                        <h4 className="text-lg font-bold text-[#41475f]">Gina Ayala</h4>
+                                        <h4 className="text-lg font-bold text-[#41475f]">Georgina Ayala Cárdenas</h4>
                                         <p className="text-[#87888a] text-sm">Asesora jurídica</p>
                                     </div>
                                 </div>

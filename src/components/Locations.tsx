@@ -147,15 +147,15 @@ const Locations = () => {
                                     <h4 className="font-semibold text-[#41475f] mb-4">Horario de Atención</h4>
                                     <div className="space-y-3 text-[#87888a] text-sm">
                                         <div className="flex justify-between items-center py-2 border-b border-[#f3efec]">
-                                            <span>Lunes - Viernes</span>
+                                            <span>Lunes - Jueves</span>
                                             <span className="font-semibold text-[#41475f]">9:00 - 18:00</span>
                                         </div>
                                         <div className="flex justify-between items-center py-2 border-b border-[#f3efec]">
-                                            <span>Sábados</span>
-                                            <span className="font-semibold text-[#41475f]">9:00 - 14:00</span>
+                                            <span>Viernes</span>
+                                            <span className="font-semibold text-[#41475f]">9:00 - 15:00</span>
                                         </div>
                                         <div className="flex justify-between items-center py-2">
-                                            <span>Domingos</span>
+                                            <span>Sabados y Domingos</span>
                                             <span className="font-semibold text-[#87888a]">Cerrado</span>
                                         </div>
                                     </div>

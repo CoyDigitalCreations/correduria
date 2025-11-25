@@ -24,7 +24,7 @@ const Hero = () => {
                     <div className="bg-[#87888a] rounded-lg border-2 border-[#f3efec] p-6 md:p-8 mx-4 lg:mx-6 w-full max-w-sm lg:ml-8">
                         {/* "Correduría" con border-b y espacio lateral */}
                         <div className="border-b-2 border-[#f3efec] pb-4 mb-4 mx-2">
-                            <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-[#f3efec] uppercase text-center">
+                            <h2 className="text-xl md:text-2xl lg:text-3xl font-light text-[#f3efec] uppercase text-center">
                                 Correduría
                             </h2>
                         </div>

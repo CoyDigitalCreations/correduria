@@ -1,8 +1,8 @@
 import Image from './common/Image';
 import walmartLogo from '../assets/images/walmart-logo_brandlogos.net_9vfxa.png';
 import attLogo from '../assets/images/AT&T_logo_2016svg.png';
-import ocesaLogo from '../assets/images/ocesa-logo-png-transparent.png';
-import autditorioLogo from '../assets/images/Auditorio-Nacional-Logo-Rojo.png';
+import ocesaLogo from '../assets/images/ocesa.jpg';
+import autditorioLogo from '../assets/images/auditorio-nacional1.svg';
 import begrand5Logo from '../assets/images/begrand_33a8b3c106_Z1PX8SI.webp';
 import monexLogo from '../assets/images/Monex_Logo.png';
 
@@ -85,7 +85,7 @@ const PrincipalesClientes = () => {
                                         layout="intrinsic"
                                         width={96}
                                         height={96}
-                                        className="max-w-full max-h-full object-contain"
+                                        className="max-w-full max-h-full object-contain rounded-full"
                                     />
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ const PrincipalesClientes = () => {
                                 <span className="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full mb-4">
                                     {cliente.industria}
                                 </span>
-                                <p className="text-gray-600 text-sm leading-relaxed">
+                                <p className="text-gray-600 text-sm leading-relaxed text-justify">
                                     {cliente.descripcion}
                                 </p>
                             </div>

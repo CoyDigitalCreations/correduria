@@ -6,23 +6,23 @@ const Footer = () => {
     // Enlaces de interés
     const enlacesInteres = [
         {
-            nombre: "SAT - Servicio de Administración Tributaria",
+            nombre: "Servicio de Administración Tributaria",
             url: "https://www.sat.gob.mx"
         },
         {
-            nombre: "e5cinco - Secretaría de Gobernación",
+            nombre: "Secretaría de Gobernación",
             url: "https://www.e5cinco.segob.gob.mx"
         },
         {
-            nombre: "Tu Empresa - Gobierno de México",
+            nombre: "Gobierno de México",
             url: "https://www.tuempresa.gob.mx"
         },
         {
-            nombre: "RUG - Registro Único de Garantías",
+            nombre: "Registro Único de Garantías",
             url: "https://www.rug.gob.mx"
         },
         {
-            nombre: "IMPI - Instituto Mexicano de la Propiedad Industrial",
+            nombre: "Instituto Mexicano de la Propiedad Industrial",
             url: "https://www.gob.mx/impi"
         }
     ];
@@ -45,7 +45,7 @@ const Footer = () => {
                                             href={enlace.url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="hover:text-[#87888a] transition duration-300 block py-1"
+                                            className="hover:text-[#87888a] transition duration-300 block py-1 text-xl hover:underline"
                                         >
                                             {enlace.nombre}
                                         </a>
@@ -62,12 +62,12 @@ const Footer = () => {
                             <div className="space-y-4">
                                 <Link
                                     to="/aviso"
-                                    className="bg-[#87888a] text-[#f3efec] px-6 py-3 rounded-lg border border-[#87888a] hover:bg-[#f3efec] hover:text-[#87888a] transition duration-300 font-semibold w-full text-center block"
+                                    className="bg-[#87888a] text-[#f3efec] font-bold px-6 py-3 rounded-lg border border-[#87888a] hover:bg-[#f3efec] hover:text-[#87888a] transition duration-300 font-semibold w-full text-center block"
                                 >
                                     Aviso de Privacidad
                                 </Link>
                                 <div className="bg-[#87888a] bg-opacity-20 rounded-lg p-4">
-                                    <p className="text-sm text-[#f3efec] opacity-90">
+                                    <p className="text-sm text-[#f3efec] font-bold opacity-90 text-justify">
                                         Correduría Pública No. 39 CDMX es una institución comprometida con la
                                         transparencia y protección de datos personales.
                                     </p>

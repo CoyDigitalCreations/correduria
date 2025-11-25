@@ -38,12 +38,12 @@ const About = () => {
                         <div className="lg:w-1/2">
                             <div className="space-y-6">
                                 <div className="mb-8">
-                                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 uppercase mb-4">
+                                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 uppercase mb-4 text-center">
                                         ¿Qué es una Correduría Pública?
                                     </h2>
                                 </div>
 
-                                <div className="space-y-4 text-gray-700 leading-relaxed">
+                                <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
                                     <p>
                                         La Secretaría de Economía es la encargada de que se aplique la Ley Federal de Correduría Pública;
                                         a través de la Dirección General de Normatividad Mercantil habilita a los Corredores Públicos,

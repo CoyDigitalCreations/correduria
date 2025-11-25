@@ -17,31 +17,31 @@ const Services = () => {
         {
             id: 1,
             title: "Fedatario Público",
-            description: "para hacer constar los contratos, convenios, actos y hechos de naturaleza mercantil, así como en la emisión de obligaciones y otros títulos de valor; en hipotecas sobre buques, navíos y aeronaves que se celebren ante él, y en el otorgamiento de créditos refaccionarios o avío, de acuerdo con la Ley de la materia.",
+            description: "Para hacer constar los contratos, convenios, actos y hechos de naturaleza mercantil, así como en la emisión de obligaciones y otros títulos de valor; en hipotecas sobre buques, navíos y aeronaves que se celebren ante él, y en el otorgamiento de créditos refaccionarios o avío, de acuerdo con la Ley de la materia.",
             image: service1
         },
         {
             id: 2,
             title: "Perito Valuador",
-            description: "para estimar, valorar y cuantificar bienes, servicios, derechos y obligaciones que se sometan a su consideración por nombramiento privado o mandato de autoridad competente",
+            description: "Para estimar, valorar y cuantificar bienes, servicios, derechos y obligaciones que se sometan a su consideración por nombramiento privado o mandato de autoridad competente.",
             image: service2
         },
         {
             id: 3,
             title: "Agente Mediador",
-            description: "para intercambiar propuestas entre dos o más partes, respecto de cualquier bien o servicio que se ofrezca en el mercado nacional o internacional; conservar muestras de los bienes que les sean entregados y, asesorar en la celebración o ajuste de cualesquier contrato o convenio mercantil.",
+            description: "Para intercambiar propuestas entre dos o más partes, respecto de cualquier bien o servicio que se ofrezca en el mercado nacional o internacional; conservar muestras de los bienes que les sean entregados y, asesorar en la celebración o ajuste de cualesquier contrato o convenio mercantil.",
             image: service3
         },
         {
             id: 4,
             title: "Asesor Jurídico",
-            description: "de sociedades mercantiles y personas físicas en actividades propias del comercio.",
+            description: "De sociedades mercantiles y personas físicas en actividades propias del comercio.",
             image: service4
         },
         {
             id: 5,
             title: "Árbitro",
-            description: "en la solución de controversias derivadas de actos, contratos o convenios mercantiles, a solicitud de las partes, así como las que resulten entre proveedores y consumidores de acuerdo con la Ley de la materia.",
+            description: "En la solución de controversias derivadas de actos, contratos o convenios mercantiles, a solicitud de las partes, así como las que resulten entre proveedores y consumidores de acuerdo con la Ley de la materia.",
             image: service5
         }
     ];
@@ -80,7 +80,7 @@ const Services = () => {
                                 <h3 className="text-xl font-bold mb-4 text-center">
                                     {service.title}
                                 </h3>
-                                <p className="text-gray-200 text-base leading-relaxed grow text-center">
+                                <p className="text-gray-200 text-base leading-relaxed grow text-justify">
                                     {service.description}
                                 </p>
                             </div>
@@ -108,7 +108,7 @@ const Services = () => {
                             <h3 className="text-xl font-bold mb-4 text-center">
                                 {services[3].title}
                             </h3>
-                            <p className="text-gray-200 text-base leading-relaxed grow text-center">
+                            <p className="text-gray-200 text-base leading-relaxed grow text-justify">
                                 {services[3].description}
                             </p>
                         </div>
@@ -136,7 +136,7 @@ const Services = () => {
                             <h3 className="text-xl font-bold mb-4 text-center">
                                 {services[4].title}
                             </h3>
-                            <p className="text-gray-200 text-base leading-relaxed grow text-center">
+                            <p className="text-gray-200 text-base leading-relaxed grow text-justify">
                                 {services[4].description}
                             </p>
                         </div>
